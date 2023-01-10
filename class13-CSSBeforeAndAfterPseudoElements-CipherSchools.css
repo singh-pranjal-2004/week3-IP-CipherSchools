@@ -1,0 +1,24 @@
+.cool::before{
+    display: block;
+    content: 'Hello';
+    color: green;
+    border: 1px dotted black;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.cool::after{
+    display: block;
+    content: 'Hello';
+    color: green;
+    border: 1px dotted black;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.main-heading::before{
+    content: "HELLO";
+    color: red;
+}
+
+/* img, br, input */
